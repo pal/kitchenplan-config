@@ -1,0 +1,9 @@
+Gemfile
+/vendor
+kitchenplan-attributes.json
+solo.rb
+Cheffile.lock
+.bundle
+.librarian
+Gemfile.lock
+/tmp
