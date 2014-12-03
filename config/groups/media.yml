@@ -1,0 +1,9 @@
+attributes:
+    homebrewalt:
+      apps:
+            - handbrake
+        cask_apps:
+            - beamer
+            - sonos
+            - vlc
+            - spotify

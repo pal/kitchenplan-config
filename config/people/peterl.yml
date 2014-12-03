@@ -1,9 +1,9 @@
 groups:
-    - groupa
+    - developer
+    - media
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
-        - osxdefaults::finder_small_sidebar_icon_size
 
 attributes:
     osxdefaults:

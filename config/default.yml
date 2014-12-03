@@ -4,8 +4,6 @@ recipes:                                       # Configs are parsed and every li
         - applications::bash
         - applications::ssh_config
         - dotfiles::bash_it
-        - dotfiles::gitconfig
-        - dotfiles::vim
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - applications::gnu-tar
@@ -47,48 +45,27 @@ attributes:
             profile: Solarized-Dark-ansi
     bash_it:
         theme: ''
-    applications:
-        sublime_text_3:
 
     homebrewalt:
         apps:
-            - git
-            - scala
-            - sbt
             - bash-completion
-            - boot2docker
             - rsync
             - watch
             - the_silver_searcher
             - wget
-            - git-extras
             - findutils
             - gnu-sed
             - ssh-copy-id
-            - heroku-toolbelt
-            - maven
-            - tig
-            - mercurial
-            - handbrake
             - cord
 
         cask_apps:
             - bankid
-            - beamer
-            - intellij-idea
             - mailbox
-            - visualvm
-            - sonos
             - google-chrome
             - firefox
-            - java
-            - vagrant
-            - virtualbox
             - macvim
             - adium
-            - vlc
             - dropbox
-            - spotify
 
         cask_fonts:
             #- sauce-code-powerline

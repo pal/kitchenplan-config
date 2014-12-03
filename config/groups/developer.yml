@@ -1,0 +1,27 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - dotfiles::vim
+
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - scala
+            - sbt
+            - boot2docker
+            - git-extras
+            - findutils
+            - gnu-sed
+            - heroku-toolbelt
+            - maven
+            - tig
+            - mercurial
+        cask_apps:
+            - intellij-idea
+            - mailbox
+            - visualvm
+            - java
+            - vagrant
+            - virtualbox
+            - macvim
