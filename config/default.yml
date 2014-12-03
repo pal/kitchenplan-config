@@ -3,7 +3,6 @@ recipes:                                       # Configs are parsed and every li
         - applications::create_var_chef_cache
         - applications::bash
         - applications::ssh_config
-        - dotfiles::bash_it
         - dotfiles::inputrc
 
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
@@ -63,7 +62,8 @@ recipes:                                       # Configs are parsed and every li
 
     homebrewalt:
         apps:
-            - bash-completion
+            - bash
+            - bash-completion2
             - rsync
             - watch
             - the_silver_searcher
@@ -71,6 +71,7 @@ recipes:                                       # Configs are parsed and every li
             - findutils
             - gnu-sed
             - ssh-copy-id
+            - bash
 
         cask_apps:
             - bankid
@@ -83,5 +84,4 @@ recipes:                                       # Configs are parsed and every li
             - cord
 
         cask_fonts:
-            #- sauce-code-powerline
             - source-code-pro

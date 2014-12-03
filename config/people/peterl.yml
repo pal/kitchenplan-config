@@ -8,8 +8,6 @@ attributes:
             finder_set_preferred_view_style: Nlsv
         terminal:
             profile: Solarized-Dark-ansi
-    bash_it:
-        theme: ''
         computername: MBP
 
     git:
