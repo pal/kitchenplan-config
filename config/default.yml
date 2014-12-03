@@ -56,7 +56,6 @@ attributes:
             - findutils
             - gnu-sed
             - ssh-copy-id
-            - cord
 
         cask_apps:
             - bankid
@@ -66,6 +65,7 @@ attributes:
             - macvim
             - adium
             - dropbox
+            - cord
 
         cask_fonts:
             #- sauce-code-powerline
