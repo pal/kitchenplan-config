@@ -4,25 +4,40 @@ recipes:                                       # Configs are parsed and every li
         - applications::bash
         - applications::ssh_config
         - dotfiles::bash_it
+        - dotfiles::inputrc
+
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - applications::gnu-tar
         - applications::sublime_text_3
+        - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
+        - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
+        - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
+        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
+        - osxdefaults::disable_disk_image_verification
+        - osxdefaults::disable_gatekeeper
+        - osxdefaults::enable_assistive_devices
+        - osxdefaults::enable_full_keyboard_access_for_all_controls
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
         - osxdefaults::dock_position_the_dock_on_the_left_side
         - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
         - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
         - osxdefaults::dock_minimize_to_application
-        - osxdefaults::dock_set_magnification_on
+        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+        - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+        - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
+        - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::dock_wipe_all_default_app_icons_from_dock
         - osxdefaults::disable_auto-correct
         - osxdefaults::disable_natural_scrolling
         - osxdefaults::enable_standard_function_keys
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::finder_small_sidebar_icon_size
-        - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
-        - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
-        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::increase_window_resize_speed_for_cocoa_applications
         - osxdefaults::disable_resume_system-wide
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
@@ -30,21 +45,21 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::tap_to_click
         - osxdefaults::finder_allow_text_selection_in_quick_look
         - osxdefaults::finder_display_full_path
-        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
         - osxdefaults::finder_new_finder_windows_shows_homefolder
         - osxdefaults::do_not_show_dashboard_as_a_space
         - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::mail_when_searching_do_not_include_trash
+        - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
+        - osxdefaults::speed_up_mission_control_animations
+        - osxdefaults::set_computer_name
+        - osxdefaults::set_terminal_profile
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
 
-attributes:
-    osxdefaults:
-        finder:
-            finder_set_preferred_view_style: Nlsv
-        terminal:
-            profile: Solarized-Dark-ansi
-    bash_it:
-        theme: ''
+        - sudoalt::default
 
     homebrewalt:
         apps:

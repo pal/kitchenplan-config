@@ -1,12 +1,15 @@
 groups:
     - developer
     - media
-recipes:
-    mac_os_x:
-        - osxdefaults::set_computer_name
 
 attributes:
     osxdefaults:
+        finder:
+            finder_set_preferred_view_style: Nlsv
+        terminal:
+            profile: Solarized-Dark-ansi
+    bash_it:
+        theme: ''
         computername: MBP
 
     git:
