@@ -60,6 +60,7 @@ recipes:                                       # Configs are parsed and every li
 
         - sudoalt::default
 
+attributes:
     homebrewalt:
         apps:
             - bash
@@ -68,10 +69,7 @@ recipes:                                       # Configs are parsed and every li
             - watch
             - the_silver_searcher
             - wget
-            - findutils
-            - gnu-sed
             - ssh-copy-id
-            - bash
 
         cask_apps:
             - bankid
