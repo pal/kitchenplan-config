@@ -57,6 +57,7 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+        - osxdefaults::use_dark_menu_bar_and_dock
 
         - sudoalt::default
 
