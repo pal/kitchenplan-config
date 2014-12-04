@@ -1,9 +1,5 @@
-# Kitchenplan Configuration
-
-This is a Kitchenplan configuration repository. This repository contains all configuration to install and configure our OSX workstations. More information about Kitchenplan and on how to use it can be found in the [Kitchenplan README](https://github.com/kitchenplan/kitchenplan).
-
-# Preparations
-Before running 'kitchenplan provison' it might be a good idea to increase the sudo timeout:
+# Setup
+Increase the sudo timeout (since kitchenplan provision will take some time):
 
     sudo visudo
 
@@ -13,11 +9,25 @@ Change:
 to
 
     Defaults        env_reset,timestamp_timeout=30
+# Kitchenplan Configuration
+Install [Kitchenplan](https://github.com/kitchenplan/kitchenplan) and provision:
+
+    sudo gem install kitchenplan
+
+    kitchenplan setup
+
+    kitchenplan provision
 
 # Dotfiles..
-Install [homeshick](https://github.com/andsens/homeshick) and then clone profile
+Install [homeshick](https://github.com/andsens/homeshick) and then clone castle:
+
+    git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+    source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
     homeshick clone pliljenberg/profile
     ln -s .profile.d/init .profile
 
+# Bash4
 
+    echo "/usr/local/bin/bash" | sudo tee -a /etc/shells
+    chsh -s /usr/local/bin/bash

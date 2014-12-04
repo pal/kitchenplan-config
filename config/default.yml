@@ -1,7 +1,6 @@
 recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
     global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
         - applications::create_var_chef_cache
-        - applications::bash
         - applications::ssh_config
         - dotfiles::inputrc
 
@@ -30,9 +29,10 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
         - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
+        - osxdefaults::dock_minimize_scale_effect
         - osxdefaults::dock_wipe_all_default_app_icons_from_dock
         - osxdefaults::disable_auto-correct
-        - osxdefaults::disable_natural_scrolling
+       # - osxdefaults::disable_natural_scrolling
         - osxdefaults::enable_standard_function_keys
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::finder_small_sidebar_icon_size
@@ -64,7 +64,7 @@ attributes:
     homebrewalt:
         apps:
             - bash
-            - bash-completion2
+            - bash-completion
             - rsync
             - watch
             - the_silver_searcher
