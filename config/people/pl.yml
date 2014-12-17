@@ -1,0 +1,21 @@
+groups:
+    - developer
+    - media
+
+attributes:
+    osxdefaults:
+        finder:
+            finder_set_preferred_view_style: Nlsv
+        terminal:
+            profile: Solarized-Dark-ansi
+        computername: Axiom
+
+    git:
+        name: Peter Liljenberg
+        email: pl@speedledger.com
+    authorization:
+        sudo:
+            users:
+                - pl
+            passwordless: true
+            include_sudoers_d: true
