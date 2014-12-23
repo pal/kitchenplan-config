@@ -1,6 +1,7 @@
 groups:
     - developer
     - media
+    - amazon
 
 attributes:
     osxdefaults:
