@@ -17,10 +17,14 @@ attributes:
             - maven
             - tig
             - mercurial
+            - jenv
+            - npm
         cask_apps:
             - intellij-idea
             - visualvm
             - java
+            - java7
+            - java6
             - vagrant
             - virtualbox
             - macvim

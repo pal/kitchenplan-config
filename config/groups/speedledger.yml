@@ -1,0 +1,4 @@
+attributes:
+    homebrewalt:
+        cask_apps:
+            - hipchat
