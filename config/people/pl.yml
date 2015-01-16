@@ -14,7 +14,7 @@ attributes:
 
     git:
         name: Peter Liljenberg
-        email: pl@speedledger.com
+        email: pl@speedledger.se
     authorization:
         sudo:
             users:
