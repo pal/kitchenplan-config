@@ -1,7 +1,7 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - dotfiles::vim
+#        - dotfiles::vim
 
 attributes:
     homebrewalt:
@@ -10,22 +10,22 @@ attributes:
             - scala
             - sbt
             - boot2docker
-            - git-extras
+#            - git-extras
             - findutils
             - gnu-sed
             - heroku-toolbelt
             - maven
-            - tig
-            - mercurial
-            - jenv
+#            - tig
+#            - mercurial
+#            - jenv
             - npm
-            - jq
+#            - jq
         cask_apps:
-            - intellij-idea
-            - visualvm
+#            - intellij-idea
+#            - visualvm
             - java
             - java7
             - java6
-            - vagrant
+#            - vagrant
             - virtualbox
-            - macvim
+#            - macvim
