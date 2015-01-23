@@ -1,6 +1,8 @@
 recipes:
     global:
         - dotfiles::gitconfig
+        - applications::gems
+
 #        - dotfiles::vim
 
 attributes:
@@ -17,9 +19,14 @@ attributes:
             - maven
 #            - tig
 #            - mercurial
-#            - jenv
+            - jenv
+            - nvm
+            - rbenv
+
             - npm
 #            - jq
+            - wget
+
         cask_apps:
 #            - intellij-idea
 #            - visualvm
@@ -29,3 +36,4 @@ attributes:
 #            - vagrant
             - virtualbox
 #            - macvim
+            - elasticsearch

@@ -2,7 +2,6 @@ recipes:                                       # Configs are parsed and every li
     global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
         - applications::create_var_chef_cache
         - applications::ssh_config
-        - applications::gems
         - dotfiles::inputrc
 
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
@@ -69,7 +68,6 @@ attributes:
 #            - rsync
 #            - watch
 #            - the_silver_searcher
-            - wget
 #            - ssh-copy-id
 
         cask_apps:
