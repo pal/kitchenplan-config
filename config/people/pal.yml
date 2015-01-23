@@ -9,8 +9,8 @@ attributes:
         finder:
             finder_set_preferred_view_style: icnv
         terminal:
-            profile: Homebrew
-            color_scheme: Homebrew
+            profile: Solarized-Dark-ansi
+#            color_scheme: Homebrew
         computername: PB-HAL-9000
 
     git:
