@@ -3,39 +3,34 @@ recipes:
         - dotfiles::gitconfig
         - applications::gems
 
-#        - dotfiles::vim
-
 attributes:
     homebrewalt:
         apps:
-            - git
-            - scala
-            - sbt
-            - boot2docker
+            - git     # Fresh git
+            - scala   # Scala
+            - sbt     # Scala Build Tool
+            - boot2docker   # Docker for Mac
+            - findutils   # Oh yes, I love me some find
+            - gnu-sed     # Every now and then, you need sed
+            - maven   # Build your Java stuff
+            - jenv    # Java Environment
+            - nvm     # Node Version Manager
+            - rbenv   # Ruby Environment
+            - npm     # Node Package Manager
+            - jq      # CLI-based JSON parsing
+            - wget    # Get them files
+            - elasticsearch   # We use ES for data warehousing
 #            - git-extras
-            - findutils
-            - gnu-sed
-            - heroku-toolbelt
-            - maven
 #            - tig
 #            - mercurial
-            - jenv
-            - nvm
-            - rbenv
+#            - heroku-toolbelt
 
-            - npm
-#            - jq
-            - wget
-
-            - elasticsearch
-
-            
         cask_apps:
+            - java    # You know, for devving!
+            - virtualbox    # Mainly for docker
 #            - intellij-idea
-#            - visualvm
-            - java
-            - java7
-            - java6
+#            - java7
+#            - java6
 #            - vagrant
-            - virtualbox
+#            - visualvm
 #            - macvim

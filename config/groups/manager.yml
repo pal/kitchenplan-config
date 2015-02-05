@@ -1,4 +1,7 @@
 attributes:
     homebrewalt:
         apps:
-            
+        cask_apps:
+            - spotify   # Play that funky music, white boy!
+            - hipchat   # Management by chat
+            - skype     # Skype for recruiting

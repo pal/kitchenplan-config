@@ -1,8 +1,6 @@
 groups:
     - developer
-    - media
     - manager
-    - speedledger
 
 attributes:
     osxdefaults:
