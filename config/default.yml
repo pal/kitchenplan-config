@@ -7,7 +7,6 @@ recipes:                                       # Configs are parsed and every li
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - applications::gnu-tar
-#        - applications::sublime_text_3
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
@@ -57,6 +56,7 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::set_terminal_profile
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
 #        - osxdefaults::use_dark_menu_bar_and_dock
+#        - applications::sublime_text_3
 
         - sudoalt::default
 
@@ -71,24 +71,22 @@ attributes:
 #            - ssh-copy-id
 
         cask_apps:
-            - bankid
-#            - mailbox
             - google-chrome
             - firefox
+            - dropbox
+#            - bankid
+#            - mailbox
 #            - macvim
 #            - adium
-            - dropbox
 #            - cord
 
         cask_fonts:
-            - source-code-pro
+            - source-code-pro     # Make source pretty
             - asap                # SpeedLedger default headline
             - open-sans           # SpeedLedger default body
             - open-sans-condensed # SpeedLedger optional
-            - eb-garamond
-            #- entypo
+            - eb-garamond         # I love me some Claude
+            - trebuchet-ms        # Windoze-support
+            #- entypo             # Achilles' glyphs
             #- entypo-social
-            #- glyphish
-            #- osifont
-            - noto-sans
-            - trebuchet-ms
+            #- osifont            # For the blue prints

@@ -13,6 +13,7 @@ attributes:
             - findutils   # Oh yes, I love me some find
             - gnu-sed     # Every now and then, you need sed
             - maven   # Build your Java stuff
+            - ant     # THE FUTURE OF JAVA-BASED INSECTS
             - jenv    # Java Environment
             - nvm     # Node Version Manager
             - rbenv   # Ruby Environment
