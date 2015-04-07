@@ -27,8 +27,9 @@ attributes:
 #            - heroku-toolbelt
 
         cask_apps:
-            - java    # You know, for devving!
+            - java          # You know, for devving!
             - virtualbox    # Mainly for docker
+            - 0xdbe-eap     # DB-madness!
 #            - intellij-idea
 #            - java7
 #            - java6
