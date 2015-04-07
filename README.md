@@ -1,4 +1,10 @@
-# Setup
+# Are you brave? Try the automatic setup script!
+    
+    git clone https://github.com/pal/kitchenplan-config.git
+    cd kitchenplan-config
+    ./go.sh
+    
+# Or else, try the following...
 Increase the sudo timeout (since kitchenplan provision will take some time):
 
     ./set_longer_sudoers_timeout.sh
