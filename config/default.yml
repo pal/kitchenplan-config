@@ -86,6 +86,7 @@ attributes:
             - open-sans-condensed # SpeedLedger optional
             - eb-garamond         # I love me some Claude
             - trebuchet-ms        # Windoze-support
+            - input               # Nice slab-style source code alternative
             #- entypo             # Achilles' glyphs
             #- entypo-social
             #- osifont            # For the blue prints
