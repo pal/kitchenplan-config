@@ -1,14 +1,8 @@
 # Setup
 Increase the sudo timeout (since kitchenplan provision will take some time):
 
-    sudo visudo
+    ./set_longer_sudoers_timeout.sh
 
-Change:
-
-    Defaults        env_reset
-to
-
-    Defaults        env_reset,timestamp_timeout=30
 # Kitchenplan Configuration
 Install [Kitchenplan](https://github.com/kitchenplan/kitchenplan) and provision:
 
