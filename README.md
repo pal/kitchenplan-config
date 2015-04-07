@@ -25,7 +25,7 @@ Install [homeshick](https://github.com/andsens/homeshick) and then clone castle:
     source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
     homeshick clone pal/profile
-    ln -s .profile.d/init .profile
+    ln -s $HOME/.profile.d/init $HOME/.profile
 
 # Bash4
 
