@@ -30,6 +30,7 @@ attributes:
             - java          # You know, for devving!
             - virtualbox    # Mainly for docker
             - 0xdbe-eap     # DB-madness!
+            - textwrangler  # Give it to me raw!
 #            - intellij-idea
 #            - java7
 #            - java6
