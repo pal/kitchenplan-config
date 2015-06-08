@@ -9,6 +9,7 @@ attributes:
             - git     # Fresh git
             - scala   # Scala
             - sbt     # Scala Build Tool
+            - heroku        # Heroku Toolbelt
             - boot2docker   # Docker for Mac
             - findutils   # Oh yes, I love me some find
             - gnu-sed     # Every now and then, you need sed
@@ -17,6 +18,8 @@ attributes:
             - jenv    # Java Environment
             - nvm     # Node Version Manager
             - rbenv   # Ruby Environment
+            - ruby-build   # Ruby Build Tool
+            - postgres   # A little RDBMS never hurt nobody
             - npm     # Node Package Manager
             - jq      # CLI-based JSON parsing
             - wget    # Get them files
