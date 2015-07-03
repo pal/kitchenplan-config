@@ -73,6 +73,7 @@ attributes:
         cask_apps:
             - google-chrome
             - firefox
+            - atom
 #            - bankid
 #            - mailbox
 #            - macvim
