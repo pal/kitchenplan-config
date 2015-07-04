@@ -33,4 +33,21 @@ Install [homeshick](https://github.com/andsens/homeshick) and then clone castle:
     chsh -s /usr/local/bin/bash
 
 # Still done manually
+* Run all updates in App Store and restart
+* Switch to Alfred and add the path for Cask Apps (/opt/homebrew-cask/Caskroom)
 * Activate LastPass in all browsers
+
+
+Logging in to a bunch of apps:
+* Spotify
+* Chrome
+* Slack
+* HipChat
+* Dropbox
+* Google Drive
+* Evernote
+* Skype
+
+Also setup these CLI-apps:
+* GitHub
+* heroku
