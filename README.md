@@ -31,3 +31,6 @@ Install [homeshick](https://github.com/andsens/homeshick) and then clone castle:
 
     echo "/usr/local/bin/bash" | sudo tee -a /etc/shells
     chsh -s /usr/local/bin/bash
+
+# Still done manually
+* Activate LastPass in all browsers
