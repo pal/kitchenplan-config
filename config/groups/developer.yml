@@ -19,7 +19,7 @@ attributes:
             - nvm     # Node Version Manager
             - rbenv   # Ruby Environment
             - ruby-build   # Ruby Build Tool
-            - postgres   # A little RDBMS never hurt nobody
+#            - postgres     # A little RDBMS never hurt nobody
             - npm     # Node Package Manager
             - jq      # CLI-based JSON parsing
             - wget    # Get them files
@@ -32,8 +32,9 @@ attributes:
         cask_apps:
             - java          # You know, for devving!
             - virtualbox    # Mainly for docker
-            - 0xdbe-eap     # DB-madness!
+            - datagrip      # DB-madness!
             - textwrangler  # Give it to me raw!
+            - mamp          # hacking Wordpress
 #            - intellij-idea
 #            - java7
 #            - java6
