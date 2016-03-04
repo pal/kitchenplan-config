@@ -24,6 +24,7 @@ attributes:
             - jq      # CLI-based JSON parsing
             - wget    # Get them files
             - elasticsearch   # We use ES for data warehousing
+            - homeshick # manage config files
 #            - git-extras
 #            - tig
 #            - mercurial
@@ -35,6 +36,7 @@ attributes:
             - datagrip      # DB-madness!
             - textwrangler  # Give it to me raw!
             - mamp          # hacking Wordpress
+#            - forticlient   # VPN FTW
 #            - intellij-idea
 #            - java7
 #            - java6
