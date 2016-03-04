@@ -1,8 +1,43 @@
-# Are you brave? Try the automatic setup script!
+# Try the automatic setup script!
     
     git clone https://github.com/pal/kitchenplan-config.git
     cd kitchenplan-config
     ./go.sh
+    
+# Still done manually
+* Run all updates in App Store and restart
+* Switch to Alfred and add the path for Cask Apps (/opt/homebrew-cask/Caskroom)
+* Activate LastPass in all browsers
+
+Install these apps from the App Store:
+* Pixelmator
+* Skitch
+* SimpleMind Free
+* Keynote, Numbers, Pages
+
+Download and install these manually:
+* FortiClient
+* Yousician
+
+Logging in to/setting up a bunch of apps:
+* Spotify
+* Chrome
+* Slack
+* HipChat
+* Dropbox
+* Google Drive
+* Evernote
+* Skype
+* FortiClient
+* Microsoft Office 365
+
+Also setup these CLI-apps:
+* GitHub
+* heroku
+
+    git config --global user.name "Pål Brattberg"
+    git config --global user.email "pal@subtree.se
+
     
 # Or else, try the following...
 Increase the sudo timeout (since kitchenplan provision will take some time):
@@ -31,26 +66,3 @@ Install [homeshick](https://github.com/andsens/homeshick) and then clone castle:
 
     echo "/usr/local/bin/bash" | sudo tee -a /etc/shells
     chsh -s /usr/local/bin/bash
-
-# Still done manually
-* Run all updates in App Store and restart
-* Switch to Alfred and add the path for Cask Apps (/opt/homebrew-cask/Caskroom)
-* Activate LastPass in all browsers
-
-
-Logging in to a bunch of apps:
-* Spotify
-* Chrome
-* Slack
-* HipChat
-* Dropbox
-* Google Drive
-* Evernote
-* Skype
-
-Also setup these CLI-apps:
-* GitHub
-* heroku
-
-    git config --global user.name "Pål Brattberg"
-    git config --global user.email "pal@subtree.se
