@@ -35,6 +35,7 @@ Also setup these CLI-apps:
 * GitHub
 * heroku
 
+
     git config --global user.name "Pål Brattberg"
     git config --global user.email "pal@subtree.se
 
