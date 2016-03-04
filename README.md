@@ -1,6 +1,7 @@
 # Try the automatic setup script!
     
     git clone https://github.com/pal/kitchenplan-config.git
+    # You will likely need to install Command Line Developer Tools here, do that and then continue
     cd kitchenplan-config
     ./go.sh
     
@@ -30,15 +31,15 @@ Logging in to/setting up a bunch of apps:
 * Skype
 * FortiClient
 * Microsoft Office 365
+* Skitch
 
 Also setup these CLI-apps:
 * GitHub
 * heroku
-
-
+```
     git config --global user.name "Pål Brattberg"
     git config --global user.email "pal@subtree.se
-
+```
     
 # Or else, try the following...
 Increase the sudo timeout (since kitchenplan provision will take some time):
